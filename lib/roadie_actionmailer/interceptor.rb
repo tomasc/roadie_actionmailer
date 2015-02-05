@@ -1,4 +1,4 @@
-module RoadieActionMailer
+module RoadieActionmailer
   class Interceptor
     def self.delivering_email message
       # TODO: implement
