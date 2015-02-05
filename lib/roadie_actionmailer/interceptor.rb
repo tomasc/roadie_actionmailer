@@ -21,7 +21,9 @@ module RoadieActionmailer
       # TODO: add options, see https://github.com/Mange/roadie-rails/blob/master/lib/roadie/rails/options.rb 
       # (basically we only need the URL options so we can transform to absolute paths)
       # @document.url_options = …
+      # 
       # TODO: init asset providers (if asset pipeline exists, then use AssetPipelineProvider, otherwise FileSystemProvider)
+      # @document.asset_providers = …
     end
 
     def process
