@@ -1,3 +1,4 @@
+require "roadie_actionmailer/interceptor"
 require "roadie_actionmailer/version"
 
 module RoadieActionmailer
