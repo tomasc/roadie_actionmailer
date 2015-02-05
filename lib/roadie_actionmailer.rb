@@ -1,5 +1,14 @@
 require "roadie_actionmailer/version"
 
 module RoadieActionmailer
-  # Your code goes here...
+  class CssInliner
+
+    def self.delivering_email message
+      message
+    end
+
+  end
 end
+
+
+ActionMailer::Base.register_interceptor(RoadieActionmailer::CssInliner)

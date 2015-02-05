@@ -6,11 +6,11 @@ require 'roadie_actionmailer/version'
 Gem::Specification.new do |spec|
   spec.name          = "roadie_actionmailer"
   spec.version       = RoadieActionmailer::VERSION
-  spec.authors       = ["Asger Behncke Jacobsen"]
-  spec.email         = ["asger@8kilo.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Tomas Celizna"]
+  spec.email         = ["tomas.celizna@gmail.com"]
+  spec.summary       = %q{An ActionMailer interceptor using roadie to inline css.}
+  spec.description   = %q{An ActionMailer interceptor using roadie to inline css.}
+  spec.homepage      = "https://github.com/tomasc/roadie_actionmailer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rails", ">= 3"
+
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  spec.add_development_dependency "coveralls"
+  spec.add_development_dependency "minitest"
 end
