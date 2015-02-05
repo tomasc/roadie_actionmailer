@@ -6,10 +6,10 @@ require 'roadie_actionmailer/version'
 Gem::Specification.new do |spec|
   spec.name          = "roadie_actionmailer"
   spec.version       = RoadieActionmailer::VERSION
-  spec.authors       = ["Tomas Celizna"]
-  spec.email         = ["tomas.celizna@gmail.com"]
-  spec.summary       = %q{An ActionMailer interceptor using roadie to inline css.}
-  spec.description   = %q{An ActionMailer interceptor using roadie to inline css.}
+  spec.authors       = ["Tomáš Celizna", "Asger Behncke Jacobsen"]
+  spec.email         = ["tomas.celizna@gmail.com", "asger@8kilo.com"]
+  spec.summary       = %q{ActionMailer interceptor to inline CSS using the Roadie gem.}
+  spec.description   = %q{ActionMailer interceptor to inline CSS using the Roadie gem.}
   spec.homepage      = "https://github.com/tomasc/roadie_actionmailer"
   spec.license       = "MIT"
 
