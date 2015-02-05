@@ -1,10 +1,13 @@
 require 'roadie'
 
+# for basic approach see here: https://github.com/fphilipe/premailer-rails/blob/master/lib/premailer/rails/hook.rb
+
 module RoadieActionmailer
   class Interceptor
 
     def self.delivering_email message
-      new(message).transform
+      new(message).process
+      message
     end
 
     # ---------------------------------------------------------------------
