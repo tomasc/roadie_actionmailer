@@ -1,6 +1,6 @@
-# RoadieActionmailer
+# Roadie ActionMailer
 
-TODO: Write a gem description
+[ActionMailer interceptor](http://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails) to inline CSS using the [Roadie](https://github.com/Mange/roadie) gem. 
 
 ## Installation
 
